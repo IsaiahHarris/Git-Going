@@ -12,17 +12,58 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="main-container">
-      <div class="header">
-        <h1 class="title">Git Going</h1>
-        <div class="sub-title">
-          Follow the directions in the README and watch this website come to
-          life.
+    <div class="frame">
+      <div class="panel">
+        <div class="header flex">
+          <div class="menu-icon">
+            <div class="dash-top"></div>
+            <div class="dash-bottom"></div>
+            <div class="circle circle-1"></div>
+          </div>
+          <span class="title">Notifications</span>
+        </div>
+
+        <div class="notifications clearfix">
+          <div class="line"></div>
+          <div class="notification">
+            <div class="circle"></div>
+            <span class="time">9:24 AM</span>
+            <p><b>John Walker</b> posted a photo on your wall.</p>
+          </div>
+          <div class="notification">
+            <div class="circle"></div>
+            <span class="time">8:19 AM</span>
+            <p><b>Alice Parker</b> commented your last post.</p>
+          </div>
+          <div class="notification">
+            <div class="circle"></div>
+            <span class="time">Yesterday</span>
+            <p><b>Luke Wayne</b> followed you.</p>
+          </div>
         </div>
       </div>
-      <div class="body">
-        <div class="pic"><div class="desc">add picture here</div></div>
+
+      <div class="menu">
+        <ul>
+          <li class="hvr-underline-from-left">
+            <span class="fa fa-dashboard"></span>Dashboard
+          </li>
+          <li class="hvr-underline-from-left">
+            <span class="fa fa-user"></span>Profile
+          </li>
+          <li class="hvr-underline-from-left">
+            <span class="fa fa-bell"></span>Notifications
+          </li>
+          <li class="hvr-underline-from-left">
+            <span class="fa fa-comments"></span>Messages
+          </li>
+          <li class="hvr-underline-from-left">
+            <span class="fa fa-gear"></span>Settings
+          </li>
+        </ul>
       </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="./app.js"></script>
   </body>
 </html>
