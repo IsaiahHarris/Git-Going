@@ -5,6 +5,7 @@
 1. Form teams of 3 and assign each person a number 1,2, and 3.
 
 2. Everyone clone this repo.
+
 3. One person in your group create a branch off master named "develop"
 
 #Person 1 directions:
@@ -36,3 +37,5 @@
 3. Create a pull request, merging your branch into develop. Don't ever merge your own pull request! Have Person 1 in your group merge the pull request.
 
 4) Everyone in your group checkout to the develop branch and run 'git pull' to see Person 3's changes.
+
+#Create a merge conflict.
